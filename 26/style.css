@@ -1,0 +1,46 @@
+body {
+	background-color: #1e2f40;
+}
+body {
+    color: rgb(123, 123, 202);
+} 
+
+v {
+    color: green;
+}
+
+.block {
+    color: rebeccapurple;
+}
+
+#id-block {
+    color: aqua;
+}
+
+[data-example] {
+    color: chartreuse;
+}
+
+[data-example=value2] {
+    color: rgb(91, 15, 255);
+}
+
+.block3, .block4, .block5 {
+    color: coral;
+}
+
+.blue-block {
+    color: darkgreen;
+}
+
+div.blue-block {
+    color: crimson;
+}
+
+div .orange {
+    color: cornflowerblue;
+}
+
+.parent>.child {
+    color: darkgoldenrod;
+}
