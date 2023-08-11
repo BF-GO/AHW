@@ -1,0 +1,59 @@
+body {
+    background-color: #1e2f40;
+}
+
+body {
+    color: rgb(123, 123, 202);
+}
+
+/* .some-text {
+    font-family: "Montserrat", "Arial"sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: justify;
+    font-weight: 700;
+    font-style: italic;
+} */
+
+
+.div {
+    font-family: "Open Sans";
+}
+
+.italics {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.word-spacing {
+    word-spacing: 30px;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+.double-underline {
+    text-decoration: underline;
+    position: relative;
+}
+
+.double-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    border-bottom: 1.5px solid;
+}
