@@ -1,0 +1,29 @@
+body {
+    background-color: #1e2f40;
+    color: rgb(123, 123, 202);
+    font-size: 40px;
+}
+
+/* ================================================= */
+
+.block {
+    /* width: 1000px;
+    height: 100px; */
+    background: #482b78;
+
+    max-width: 1000px;
+    min-width: 800px;
+
+    min-height: 100px;
+    max-height: 800px;
+}
+
+.inline {
+    width: 1000px;
+    height: 100px;
+}
+
+.img {  
+    width: 1000px;
+    height: auto;
+}
