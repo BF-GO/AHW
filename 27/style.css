@@ -1,0 +1,33 @@
+body {
+	background-color: #1e2f40;
+}
+body {
+    color: rgb(123, 123, 202);
+}
+
+/* Приоритет 10 */
+.block {
+    width: 500px;
+    height: 500px;
+    background: darkred;
+}
+
+/* Приоритет 100 */
+/* #block {
+    background: thistle;
+} */
+
+/* Приоритет 10 */
+.block-2 {
+    background: yellow;
+}
+
+/* Приоритет 1 + 10 = 11 */
+div.block {
+    background: purple;
+}
+
+/* Приоритет 1000 */
+/* div {
+    background: purple !important;
+} */
