@@ -1,0 +1,36 @@
+body {
+    background-color: #1e2f40;
+    color: rgb(123, 123, 202);
+    font-size: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background: #555a4a;
+}
+
+/* ================================================= */
+
+.block {
+    padding: 20px;
+}
+
+.block-1 {
+    margin: 0 0 50px 0;
+}
+
+/* .block-2 {
+    margin-top: 100px;
+} */
+
+.inline {
+    margin: 50px;
+}
+
+.img {
+    margin: 50px;
+}
