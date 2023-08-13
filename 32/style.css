@@ -5,3 +5,29 @@ body {
 }
 
 /* ================================================= */
+
+.block {
+    /* border: 5px groove rgb(183, 162, 162);
+    border-top: 15px double #9c2323;
+
+    border-width: 10px;
+    border-style: dotted;
+    border-color: aqua;
+    
+    border-bottom-color: purple; */
+
+    /* border: 4px solid black; */
+
+    /* border-radius: 10px 0 0 0; */
+
+    outline: 5px solid greenyellow;
+}
+
+.inline {
+    border: 4px solid burlywood;
+}
+
+.img {
+    border: 10px solid red;
+    border-radius: 30px;
+}
