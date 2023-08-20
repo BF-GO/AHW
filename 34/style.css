@@ -1,0 +1,23 @@
+body {
+    background-color: #1e2f40;
+    color: rgb(123, 123, 202);
+    font-size: 40px;
+}
+
+/* ================================================= */
+
+.block {
+    background-color: rgb(228, 228, 228);
+    display: inline-block;
+    width: 400px;
+    
+}
+
+.inline {
+    display: block;
+    background-color: rgb(228, 228, 228);
+}
+
+.img {
+    display: block;
+}
