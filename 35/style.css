@@ -5,3 +5,20 @@ body {
 }
 
 /* ================================================= */
+
+.block {
+    /* opacity: 0 ;
+    visibility: hidden; */
+    
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+}
+
+.inline {
+    opacity: 0.5;
+}
+
+.img {
+    opacity: 0.5;
+}
