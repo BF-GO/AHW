@@ -1,0 +1,30 @@
+body {
+    color: rgb(123, 123, 202);
+    font-size: 40px;
+    background-color: #36618b;
+}
+
+/* ================================================= */
+
+.block {
+    height: 500px;
+    width: auto;
+    overflow: auto;
+
+
+    background-color: #80a9d1;
+    background-image: url(./tiger-C-1UXqeEhh-watermarked.png), url(./panda-life-3IMuXEpeKY-watermarked.png);
+    /* background-image: radial-gradient(#c8cf6f 40%, #67c014, black); */
+    background-repeat: no-repeat;
+    background-position: 0 0, 100% 150px;
+    background-attachment: scroll, fixed;
+    background-size: contain, 250px 250px;
+}
+
+.block2 {
+    height: 500px;
+    width: auto;
+    overflow: auto;
+    background-size: contain;
+    background: url(./michael-m-vTWuGTPekH4-unsplash.jpg) center center /contain #0057ad no-repeat;
+}
