@@ -168,7 +168,6 @@ h1 {
     padding: 18px;
     background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
     max-width: 436px;
-    width: 100%;
     text-align: center;
     margin: 0 auto;
 }
@@ -189,8 +188,9 @@ footer {
     max-width: 267px;
 }
 
-.footer-description img {
-    padding-bottom: 15px;
+.footer-description a {
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
 .footer-links {
