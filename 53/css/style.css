@@ -1,0 +1,9 @@
+body {
+    background-color: darkslategray;
+}
+
+.text {
+    color: rgb(203, 221, 221);
+    font-family: "Open Sans";
+    font-weight: 500;
+}
