@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(142, 119, 119);
+}
+p {
+    font-size: 2em;
+}
+
+section {
+    height: 2000px;
+}
+
+.chat-bot {
+    border-radius: 10px;
+    background-color: aqua;
+    min-height: 100px;
+    width: auto;
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    right: 50px;
+}
+
+.chat-bot__ring {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    top: -50%;
+}
