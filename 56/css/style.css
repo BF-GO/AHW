@@ -63,8 +63,16 @@ body {
     background: #82c7ff;
 }
 
+.input:hover {
+    box-shadow: 0 0 10px 10px #7575b5;
+}
+
 .input:focus {
     box-shadow: 0 0 10px 10px #4e4eda;
+}
+
+:focus {
+    box-shadow: 0 0 5px 5px #4e4eda;
 }
 
 .list__item:first-child {
@@ -76,4 +84,16 @@ body {
 
 .list__item:nth-child(3) {
     color: plum;
+}
+
+.list__item:nth-child(odd) {
+    color: rgb(184, 30, 184);
+}
+
+.list__item:nth-child(even) {
+    color: rgb(137, 56, 70);
+}
+
+.list__other:nth-child(4) {
+    background-color: coral;
 }

@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219, 234, 248);
+}
+
+.cool-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cool-button:hover {
+    transform: scale(1.1);
+  }
+
+.cool-button:active {
+    transform: scale(0.9);
+  }
+  
+  .cool-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 3px #3498db;
+  }
