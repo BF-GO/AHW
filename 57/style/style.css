@@ -1,0 +1,38 @@
+body {
+    background: #343334;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 90px;
+    color: wheat;
+    margin: 50px;
+    position: relative;
+}
+
+.title::before {
+        content: '';
+        display: block;
+        height: 100px;
+        width: 100px;
+        background: brown;
+        position: absolute;
+        left: -150px;
+        
+}
+
+.title::after {
+        content: '';
+        display: block;
+        height: 100px;
+        width: 100px;
+        background: brown;
+        position: absolute;
+        right: -150px;
+        top: 50%;
+        transform: translateY(-50%);
+}
