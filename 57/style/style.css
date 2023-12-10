@@ -1,4 +1,5 @@
 body {
+    font-family: sans-serif;
     background: #343334;
 }
 
@@ -8,23 +9,13 @@ body {
 }
 
 .title {
-    font-size: 90px;
-    color: wheat;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
     margin: 50px;
     position: relative;
 }
 
-.title::before {
-        content: '';
-        display: block;
-        height: 100px;
-        width: 100px;
-        background: brown;
-        position: absolute;
-        left: -150px;
-        
-}
-
+.title::before, 
 .title::after {
         content: '';
         display: block;
@@ -32,7 +23,16 @@ body {
         width: 100px;
         background: brown;
         position: absolute;
-        right: -150px;
-        top: 50%;
-        transform: translateY(-50%);
+        top: -5px;
+        border: 5px solid white;
+}
+
+.title::before {
+    left: -150px;
+    border-radius: 50%;
+}
+
+.title::after {
+    right: -150px;
+    border-radius: 50%;
 }
