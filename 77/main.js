@@ -3,7 +3,7 @@ const a = 5
 const sum = 2 + 2
 console.log(sum)
 
-const minus = 10 - 5
+const minus = 10 - 6
 console.log(minus)
 
 const X = 10
